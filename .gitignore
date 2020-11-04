@@ -11,6 +11,9 @@ client/coverage
 
 # production
 client/build
+client/dist
+client/workers-site
+client/wrangler.toml
 
 # misc
 client/.DS_Store
