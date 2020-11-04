@@ -1,0 +1,23 @@
+.calculations-sidebar{
+    width: 40%;
+    background-color: #111111;
+    color: white;
+    padding: 1.5rem;
+    overflow: scroll;
+
+    &__calculation{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        @media (min-width: $screen-md-min){
+            margin: 1rem;
+            padding:1rem;
+        }
+    }
+    &__calculation{
+        font-size: 1.2rem;
+        background-color: #000000;
+        @media (min-width: $screen-md-min){
+            font-size: 1.6rem;
+        }
+    }
+}
