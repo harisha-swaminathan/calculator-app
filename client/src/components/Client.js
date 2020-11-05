@@ -14,7 +14,10 @@ const ClientConnection = ()=>{
             let parsedData = JSON.parse(localStorage.getItem('calculations'));
             setCalculations(parsedData);
         }
-        socketRef.current = io('https://calculator-socketio.herokuapp.com/');
+
+        //socketRef.current = io('https://calculator-socketio.herokuapp.com/');
+
+        socketRef.current = io(`http://localhost:${process.env.PORT||5000}/`);
 
         socketRef.current.on('newCalculation',(newCalc)=>{
             setCalculations((calculations)=>{
