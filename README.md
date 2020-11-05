@@ -26,7 +26,7 @@ https://client.hswamina.workers.dev/
 
 ## About this app
 
-This calculator app is built with React on the frontend and Nodejs and socket-io on the backend with express. The backend server was deployed on Heroku and the client has been deployed using cloudflare. 
+This calculator app is built with React on the frontend and Nodejs and socket-io on the backend with express. The backend server was deployed on Heroku and the client has been deployed using cloudflare. The application uses localstorage to persist data.
 
 ## Available Scripts
 
